@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.nttdata.facade.facadePersona.Classes.Person;
 import com.nttdata.facade.facadePersona.Facade.PersonFacade;
-import com.nttdata.facade.facadePersona.Service.PersonService;
 
 @SpringBootApplication
 public class FacadePersonaApplication {
