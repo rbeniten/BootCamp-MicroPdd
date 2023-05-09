@@ -14,9 +14,8 @@ public class DecoradorPersonaApplication {
 		SpringApplication.run(DecoradorPersonaApplication.class, args);
 		
 		Person person = new Person();
-		person.setAltura(1.75);
 
-		PersonDecorator decorator = new PersonDecoratorImpl(person);
+		PersonDecorator decorator = new PersonDecoratorImpl(person, 1.75);
 		System.out.println("Altura: " + decorator.getAlturacm() + " cm");
 		
 	}
