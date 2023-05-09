@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author rbeniten
- *
- */
-module PatronBuilder {
-}
